@@ -28,34 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_cadastrar = new System.Windows.Forms.Button();
+            this.btn_alterar = new System.Windows.Forms.Button();
+            this.btn_limpar = new System.Windows.Forms.Button();
+            this.btn_excluir = new System.Windows.Forms.Button();
+            this.btn_ok = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_cadastrar
             // 
-            this.button1.Location = new System.Drawing.Point(70, 177);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_cadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(90)))), ((int)(((byte)(0)))));
+            this.btn_cadastrar.Location = new System.Drawing.Point(87, 384);
+            this.btn_cadastrar.Name = "btn_cadastrar";
+            this.btn_cadastrar.Size = new System.Drawing.Size(170, 44);
+            this.btn_cadastrar.TabIndex = 0;
+            this.btn_cadastrar.Text = "Cadastrar";
+            this.btn_cadastrar.UseVisualStyleBackColor = false;
+            this.btn_cadastrar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btn_alterar
+            // 
+            this.btn_alterar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(90)))), ((int)(((byte)(0)))));
+            this.btn_alterar.Location = new System.Drawing.Point(352, 384);
+            this.btn_alterar.Name = "btn_alterar";
+            this.btn_alterar.Size = new System.Drawing.Size(170, 44);
+            this.btn_alterar.TabIndex = 1;
+            this.btn_alterar.Text = "Alterar";
+            this.btn_alterar.UseVisualStyleBackColor = false;
+            // 
+            // btn_limpar
+            // 
+            this.btn_limpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(90)))), ((int)(((byte)(0)))));
+            this.btn_limpar.Location = new System.Drawing.Point(635, 384);
+            this.btn_limpar.Name = "btn_limpar";
+            this.btn_limpar.Size = new System.Drawing.Size(170, 44);
+            this.btn_limpar.TabIndex = 2;
+            this.btn_limpar.Text = "Limpar";
+            this.btn_limpar.UseVisualStyleBackColor = false;
+            // 
+            // btn_excluir
+            // 
+            this.btn_excluir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(90)))), ((int)(((byte)(0)))));
+            this.btn_excluir.Location = new System.Drawing.Point(911, 384);
+            this.btn_excluir.Name = "btn_excluir";
+            this.btn_excluir.Size = new System.Drawing.Size(170, 44);
+            this.btn_excluir.TabIndex = 3;
+            this.btn_excluir.Text = "Excluir";
+            this.btn_excluir.UseVisualStyleBackColor = false;
+            this.btn_excluir.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btn_ok
+            // 
+            this.btn_ok.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(90)))), ((int)(((byte)(0)))));
+            this.btn_ok.Location = new System.Drawing.Point(487, 325);
+            this.btn_ok.Name = "btn_ok";
+            this.btn_ok.Size = new System.Drawing.Size(170, 44);
+            this.btn_ok.TabIndex = 4;
+            this.btn_ok.Text = "OK";
+            this.btn_ok.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Silver;
+            this.panel1.Location = new System.Drawing.Point(41, 18);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1067, 186);
+            this.panel1.TabIndex = 5;
             // 
             // Frm_pacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(94)))), ((int)(((byte)(162)))));
-            this.ClientSize = new System.Drawing.Size(1188, 1019);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1144, 694);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btn_ok);
+            this.Controls.Add(this.btn_excluir);
+            this.Controls.Add(this.btn_limpar);
+            this.Controls.Add(this.btn_alterar);
+            this.Controls.Add(this.btn_cadastrar);
             this.Name = "Frm_pacientes";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Frm_pacientes_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_cadastrar;
+        private System.Windows.Forms.Button btn_alterar;
+        private System.Windows.Forms.Button btn_limpar;
+        private System.Windows.Forms.Button btn_excluir;
+        private System.Windows.Forms.Button btn_ok;
+        private System.Windows.Forms.Panel panel1;
     }
 }

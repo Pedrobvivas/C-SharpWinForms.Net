@@ -41,3 +41,5 @@ C:\Users\pedro\OneDrive\Área de Trabalho\C#\Application_CRUD\obj\Debug\Applicat
 C:\Users\pedro\OneDrive\Área de Trabalho\C#\Application_CRUD\obj\Debug\Application_CRUD.exe
 C:\Users\pedro\OneDrive\Área de Trabalho\C#\Application_CRUD\obj\Debug\Application_CRUD.pdb
 C:\Users\pedro\OneDrive\Área de Trabalho\C#\Application_CRUD\obj\Debug\Application_CRUD.Frm_menu.resources
+C:\Users\pedro\OneDrive\Área de Trabalho\C#\Application_CRUD\obj\Debug\CRUD_Paciente.frm_menu.resources
+C:\Users\pedro\OneDrive\Área de Trabalho\C#\Application_CRUD\obj\Debug\Application_CRUD.Frm_pacientes.resources
