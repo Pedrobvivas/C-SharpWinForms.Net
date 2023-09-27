@@ -1,7 +1,9 @@
-﻿using System;
+﻿using CRUD_Paciente;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -46,7 +48,7 @@ namespace Application_CRUD
 
             if (entrada.verificarLogin() == "aceito")
             {
-                Frm_menu form = new Frm_menu();
+                frm_menu form = new frm_menu();
                 this.Hide();      //esconde o formulario de login
                 form.ShowDialog();
             }
@@ -56,5 +58,9 @@ namespace Application_CRUD
             }
         }
 
+        private void Frm_login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

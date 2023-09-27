@@ -9,7 +9,7 @@ namespace Application_CRUD
 {
     internal class ConexaoBanco
     {
-        private string host = "localhost";
+        private string host = "3306";
         private string database = "basedados_pacientes";
         private string user = "root";
         private string password = "1234567";

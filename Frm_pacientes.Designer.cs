@@ -33,7 +33,6 @@
             this.btn_limpar = new System.Windows.Forms.Button();
             this.btn_excluir = new System.Windows.Forms.Button();
             this.btn_ok = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btn_cadastrar
@@ -88,21 +87,12 @@
             this.btn_ok.Text = "OK";
             this.btn_ok.UseVisualStyleBackColor = false;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Location = new System.Drawing.Point(41, 18);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1067, 186);
-            this.panel1.TabIndex = 5;
-            // 
             // Frm_pacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(94)))), ((int)(((byte)(162)))));
             this.ClientSize = new System.Drawing.Size(1144, 694);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.btn_excluir);
             this.Controls.Add(this.btn_limpar);
@@ -122,6 +112,5 @@
         private System.Windows.Forms.Button btn_limpar;
         private System.Windows.Forms.Button btn_excluir;
         private System.Windows.Forms.Button btn_ok;
-        private System.Windows.Forms.Panel panel1;
     }
 }

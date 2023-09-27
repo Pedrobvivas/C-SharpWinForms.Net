@@ -1,7 +1,9 @@
 ﻿using Application_CRUD;
 using System;
+using System.Linq;
 using System.Runtime.InteropServices; //inserir esta linha
 using System.Windows.Forms;
+
 
 namespace CRUD_Paciente
 {
@@ -78,11 +80,16 @@ namespace CRUD_Paciente
         //métodos para chamada dos formulários
         private void btn_paciente_Click(object sender, EventArgs e)
         {
-            AbrirFormNoPanel<frm_paciente>();
+            AbrirFormNoPanel<Frm_pacientes>();
         }
         private void btn_relatorios_Click(object sender, EventArgs e)
         {
-            AbrirFormNoPanel<frm_relatorios>();
+            AbrirFormNoPanel<Frm_relatorio>();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
