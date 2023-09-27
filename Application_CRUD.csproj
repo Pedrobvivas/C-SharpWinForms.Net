@@ -99,7 +99,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexaoBanco.cs" />
+    <Compile Include="endereco.cs" />
     <Compile Include="FazerLogin.cs" />
+    <Compile Include="Frm_pacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_pacientes.Designer.cs">
+      <DependentUpon>Frm_pacientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +119,7 @@
     <Compile Include="Frm_menu.Designer.cs">
       <DependentUpon>Frm_menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="paciente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_login.resx">
@@ -119,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_menu.resx">
       <DependentUpon>Frm_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_pacientes.resx">
+      <DependentUpon>Frm_pacientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
